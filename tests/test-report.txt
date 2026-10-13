@@ -1,0 +1,7 @@
+# Executed 2026-10-13 with Python Python 3.12.3, against LOCAL fake SSTP(TLS) and OpenVPN-TCP servers (not real VPN Gate servers)
+test_end_to_end (__main__.FeedTests.test_end_to_end) ... ok
+test_parser_rejects_bad_records (__main__.FeedTests.test_parser_rejects_bad_records) ... ok
+test_too_few_keeps_previous (__main__.FeedTests.test_too_few_keeps_previous) ... ok
+----------------------------------------------------------------------
+Ran 3 tests in 4.190s
+OK
