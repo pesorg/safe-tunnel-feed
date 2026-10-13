@@ -1,0 +1,52 @@
+name: update-server-lists
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: feed
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install signing dependency
+        run: pip install cryptography
+
+      - name: Restore previous lists
+        run: |
+          mkdir -p out
+          if git fetch --depth=1 origin data; then
+            git archive FETCH_HEAD | tar -x -C out
+          fi
+
+      - name: Build lists
+        env:
+          SIGNING_KEY_PEM: ${{ secrets.SIGNING_KEY_PEM }}
+        run: python scripts/build_lists.py --out out
+
+      - name: Publish to the data branch
+        run: |
+          cd out
+          rm -rf .git
+          git init -q -b data
+          git config user.name  "feed-bot"
+          git config user.email "feed-bot@users.noreply.github.com"
+          date -u +%FT%TZ > updated.txt
+          git add -A
+          git commit -q -m "lists $(date -u +%FT%TZ)"
+          git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          git push -q --force origin data
