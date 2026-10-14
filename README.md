@@ -13,8 +13,8 @@ A scheduled GitHub Actions workflow that downloads the public VPN Gate server li
 Each list holds up to 20 servers, ranked by VPN Gate score, then fewer sessions, then lower measured connect time.
 
 Raw URLs:
-`https://raw.githubusercontent.com/<USER>/<REPO>/data/sstp.json`
-`https://raw.githubusercontent.com/<USER>/<REPO>/data/openvpn_tcp.json`
+`https://raw.githubusercontent.com/pesorg/safe-tunnel-feed/data/sstp.json`
+`https://raw.githubusercontent.com/pesorg/safe-tunnel-feed/data/openvpn_tcp.json`
 
 ## How it works
 
