@@ -1,0 +1,332 @@
+{
+ "generatedAt": "2026-10-17T16:47:38Z",
+ "protocol": "sstp",
+ "schema": 1,
+ "servers": [
+  {
+   "country": "Japan",
+   "country_code": "JP",
+   "host": "public-vpn-207",
+   "ip": "219.100.37.167",
+   "port": 443,
+   "probe": {
+    "cert_sha256": "D4BEDC8F499AE6E416311783AD4575086CA5A0B138787CD946931F109D4B2D3F",
+    "checked_at": "2026-10-17T16:45:46Z",
+    "tcp_ms": 135,
+    "tls_trusted": true
+   },
+   "published_ping_ms": 17,
+   "published_sessions": 94,
+   "published_speed_bps": 143537886,
+   "published_uptime_ms": 1275550673,
+   "score": 2907053,
+   "sstp_host": "public-vpn-207.opengw.net"
+  },
+  {
+   "country": "Japan",
+   "country_code": "JP",
+   "host": "public-vpn-224",
+   "ip": "219.100.37.169",
+   "port": 443,
+   "probe": {
+    "cert_sha256": "D4BEDC8F499AE6E416311783AD4575086CA5A0B138787CD946931F109D4B2D3F",
+    "checked_at": "2026-10-17T16:45:46Z",
+    "tcp_ms": 134,
+    "tls_trusted": true
+   },
+   "published_ping_ms": 8,
+   "published_sessions": 71,
+   "published_speed_bps": 135310930,
+   "published_uptime_ms": 1275526049,
+   "score": 2835871,
+   "sstp_host": "public-vpn-224.opengw.net"
+  },
+  {
+   "country": "Japan",
+   "country_code": "JP",
+   "host": "public-vpn-72",
+   "ip": "219.100.37.22",
+   "port": 443,
+   "probe": {
+    "cert_sha256": "D4BEDC8F499AE6E416311783AD4575086CA5A0B138787CD946931F109D4B2D3F",
+    "checked_at": "2026-10-17T16:45:46Z",
+    "tcp_ms": 134,
+    "tls_trusted": true
+   },
+   "published_ping_ms": 27,
+   "published_sessions": 167,
+   "published_speed_bps": 103552682,
+   "published_uptime_ms": 1275516763,
+   "score": 2828858,
+   "sstp_host": "public-vpn-72.opengw.net"
+  },
+  {
+   "country": "Japan",
+   "country_code": "JP",
+   "host": "public-vpn-45",
+   "ip": "219.100.37.9",
+   "port": 443,
+   "probe": {
+    "cert_sha256": "D4BEDC8F499AE6E416311783AD4575086CA5A0B138787CD946931F109D4B2D3F",
+    "checked_at": "2026-10-17T16:45:46Z",
+    "tcp_ms": 140,
+    "tls_trusted": true
+   },
+   "published_ping_ms": 20,
+   "published_sessions": 90,
+   "published_speed_bps": 135999864,
+   "published_uptime_ms": 1275522516,
+   "score": 2825176,
+   "sstp_host": "public-vpn-45.opengw.net"
+  },
+  {
+   "country": "Japan",
+   "country_code": "JP",
+   "host": "public-vpn-210",
+   "ip": "219.100.37.198",
+   "port": 443,
+   "probe": {
+    "cert_sha256": "D4BEDC8F499AE6E416311783AD4575086CA5A0B138787CD946931F109D4B2D3F",
+    "checked_at": "2026-10-17T16:45:46Z",
+    "tcp_ms": 133,
+    "tls_trusted": true
+   },
+   "published_ping_ms": 11,
+   "published_sessions": 98,
+   "published_speed_bps": 107384361,
+   "published_uptime_ms": 1275546185,
+   "score": 2802859,
+   "sstp_host": "public-vpn-210.opengw.net"
+  },
+  {
+   "country": "Japan",
+   "country_code": "JP",
+   "host": "public-vpn-154",
+   "ip": "219.100.37.121",
+   "port": 443,
+   "probe": {
+    "cert_sha256": "D4BEDC8F499AE6E416311783AD4575086CA5A0B138787CD946931F109D4B2D3F",
+    "checked_at": "2026-10-17T16:45:46Z",
+    "tcp_ms": 136,
+    "tls_trusted": true
+   },
+   "published_ping_ms": 22,
+   "published_sessions": 142,
+   "published_speed_bps": 112061572,
+   "published_uptime_ms": 1275530471,
+   "score": 2798108,
+   "sstp_host": "public-vpn-154.opengw.net"
+  },
+  {
+   "country": "Japan",
+   "country_code": "JP",
+   "host": "public-vpn-40",
+   "ip": "219.100.37.4",
+   "port": 443,
+   "probe": {
+    "cert_sha256": "D4BEDC8F499AE6E416311783AD4575086CA5A0B138787CD946931F109D4B2D3F",
+    "checked_at": "2026-10-17T16:45:46Z",
+    "tcp_ms": 136,
+    "tls_trusted": true
+   },
+   "published_ping_ms": 18,
+   "published_sessions": 136,
+   "published_speed_bps": 310152500,
+   "published_uptime_ms": 1275525593,
+   "score": 2728613,
+   "sstp_host": "public-vpn-40.opengw.net"
+  },
+  {
+   "country": "Japan",
+   "country_code": "JP",
+   "host": "public-vpn-209",
+   "ip": "219.100.37.215",
+   "port": 443,
+   "probe": {
+    "cert_sha256": "D4BEDC8F499AE6E416311783AD4575086CA5A0B138787CD946931F109D4B2D3F",
+    "checked_at": "2026-10-17T16:45:46Z",
+    "tcp_ms": 136,
+    "tls_trusted": true
+   },
+   "published_ping_ms": 17,
+   "published_sessions": 64,
+   "published_speed_bps": 136834798,
+   "published_uptime_ms": 1275530593,
+   "score": 2485366,
+   "sstp_host": "public-vpn-209.opengw.net"
+  },
+  {
+   "country": "Japan",
+   "country_code": "JP",
+   "host": "public-vpn-124",
+   "ip": "219.100.37.102",
+   "port": 443,
+   "probe": {
+    "cert_sha256": "D4BEDC8F499AE6E416311783AD4575086CA5A0B138787CD946931F109D4B2D3F",
+    "checked_at": "2026-10-17T16:45:46Z",
+    "tcp_ms": 134,
+    "tls_trusted": true
+   },
+   "published_ping_ms": 26,
+   "published_sessions": 135,
+   "published_speed_bps": 139738554,
+   "published_uptime_ms": 1275550489,
+   "score": 2348624,
+   "sstp_host": "public-vpn-124.opengw.net"
+  },
+  {
+   "country": "Japan",
+   "country_code": "JP",
+   "host": "public-vpn-118",
+   "ip": "219.100.37.87",
+   "port": 443,
+   "probe": {
+    "cert_sha256": "D4BEDC8F499AE6E416311783AD4575086CA5A0B138787CD946931F109D4B2D3F",
+    "checked_at": "2026-10-17T16:45:46Z",
+    "tcp_ms": 142,
+    "tls_trusted": true
+   },
+   "published_ping_ms": 14,
+   "published_sessions": 85,
+   "published_speed_bps": 114761851,
+   "published_uptime_ms": 1275543030,
+   "score": 2004807,
+   "sstp_host": "public-vpn-118.opengw.net"
+  },
+  {
+   "country": "Japan",
+   "country_code": "JP",
+   "host": "public-vpn-201",
+   "ip": "219.100.37.212",
+   "port": 443,
+   "probe": {
+    "cert_sha256": "D4BEDC8F499AE6E416311783AD4575086CA5A0B138787CD946931F109D4B2D3F",
+    "checked_at": "2026-10-17T16:45:46Z",
+    "tcp_ms": 136,
+    "tls_trusted": true
+   },
+   "published_ping_ms": 12,
+   "published_sessions": 110,
+   "published_speed_bps": 141500587,
+   "published_uptime_ms": 1275555486,
+   "score": 1988005,
+   "sstp_host": "public-vpn-201.opengw.net"
+  },
+  {
+   "country": "Japan",
+   "country_code": "JP",
+   "host": "public-vpn-252",
+   "ip": "219.100.37.175",
+   "port": 443,
+   "probe": {
+    "cert_sha256": "D4BEDC8F499AE6E416311783AD4575086CA5A0B138787CD946931F109D4B2D3F",
+    "checked_at": "2026-10-17T16:45:47Z",
+    "tcp_ms": 134,
+    "tls_trusted": true
+   },
+   "published_ping_ms": 25,
+   "published_sessions": 76,
+   "published_speed_bps": 107264388,
+   "published_uptime_ms": 1275520937,
+   "score": 1931532,
+   "sstp_host": "public-vpn-252.opengw.net"
+  },
+  {
+   "country": "Japan",
+   "country_code": "JP",
+   "host": "public-vpn-55",
+   "ip": "219.100.37.20",
+   "port": 443,
+   "probe": {
+    "cert_sha256": "D4BEDC8F499AE6E416311783AD4575086CA5A0B138787CD946931F109D4B2D3F",
+    "checked_at": "2026-10-17T16:45:47Z",
+    "tcp_ms": 140,
+    "tls_trusted": true
+   },
+   "published_ping_ms": 28,
+   "published_sessions": 117,
+   "published_speed_bps": 130107426,
+   "published_uptime_ms": 1275557438,
+   "score": 1890072,
+   "sstp_host": "public-vpn-55.opengw.net"
+  },
+  {
+   "country": "Japan",
+   "country_code": "JP",
+   "host": "public-vpn-47",
+   "ip": "219.100.37.11",
+   "port": 443,
+   "probe": {
+    "cert_sha256": "D4BEDC8F499AE6E416311783AD4575086CA5A0B138787CD946931F109D4B2D3F",
+    "checked_at": "2026-10-17T16:45:46Z",
+    "tcp_ms": 134,
+    "tls_trusted": true
+   },
+   "published_ping_ms": 20,
+   "published_sessions": 62,
+   "published_speed_bps": 93690192,
+   "published_uptime_ms": 1275528825,
+   "score": 1752703,
+   "sstp_host": "public-vpn-47.opengw.net"
+  },
+  {
+   "country": "Japan",
+   "country_code": "JP",
+   "host": "public-vpn-109",
+   "ip": "219.100.37.86",
+   "port": 443,
+   "probe": {
+    "cert_sha256": "D4BEDC8F499AE6E416311783AD4575086CA5A0B138787CD946931F109D4B2D3F",
+    "checked_at": "2026-10-17T16:45:46Z",
+    "tcp_ms": 134,
+    "tls_trusted": true
+   },
+   "published_ping_ms": 10,
+   "published_sessions": 73,
+   "published_speed_bps": 118897982,
+   "published_uptime_ms": 1275535132,
+   "score": 1529147,
+   "sstp_host": "public-vpn-109.opengw.net"
+  },
+  {
+   "country": "Japan",
+   "country_code": "JP",
+   "host": "public-vpn-148",
+   "ip": "219.100.37.107",
+   "port": 443,
+   "probe": {
+    "cert_sha256": "D4BEDC8F499AE6E416311783AD4575086CA5A0B138787CD946931F109D4B2D3F",
+    "checked_at": "2026-10-17T16:45:48Z",
+    "tcp_ms": 135,
+    "tls_trusted": true
+   },
+   "published_ping_ms": 11,
+   "published_sessions": 53,
+   "published_speed_bps": 94385231,
+   "published_uptime_ms": 1275516871,
+   "score": 1234739,
+   "sstp_host": "public-vpn-148.opengw.net"
+  },
+  {
+   "country": "United States",
+   "country_code": "US",
+   "host": "vpn7327190860",
+   "ip": "156.239.242.10",
+   "port": 443,
+   "probe": {
+    "cert_sha256": "D4BEDC8F499AE6E416311783AD4575086CA5A0B138787CD946931F109D4B2D3F",
+    "checked_at": "2026-10-17T16:46:22Z",
+    "tcp_ms": 48,
+    "tls_trusted": true
+   },
+   "published_ping_ms": 3,
+   "published_sessions": 75,
+   "published_speed_bps": 48351310,
+   "published_uptime_ms": 23708156,
+   "score": 514212,
+   "sstp_host": "vpn7327190860.opengw.net"
+  }
+ ],
+ "source": "vpngate.net",
+ "validForSeconds": 7200
+}
